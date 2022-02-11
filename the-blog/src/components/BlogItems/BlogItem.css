@@ -1,0 +1,28 @@
+.blogs {
+  background-color: rgb(255, 254, 255);
+  margin-bottom: 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogItem_title {
+  font-size: 40px;
+  font-style: bold;
+}
+
+.blogItem_description,
+.blogItem_author {
+  color: slategray;
+}
+
+.blogItem_img {
+  padding-top: 20px;
+  padding-left: 200px;
+  height: 160px;
+  width: 200px;
+}

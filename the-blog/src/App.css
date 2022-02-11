@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(246, 246, 245);
+  /* background-color: royalblue; */
+}
+
+.header {
+  height: 50px;
+  background-color: rgb(255, 254, 255);
+  margin-bottom: 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.search {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
