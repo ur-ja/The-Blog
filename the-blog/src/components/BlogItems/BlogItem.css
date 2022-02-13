@@ -1,6 +1,6 @@
 .blogs {
   background-color: rgb(255, 254, 255);
-  margin-bottom: 1px;
+  margin-bottom: 2px;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 5px;
@@ -13,11 +13,12 @@
 .blogItem_title {
   font-size: 40px;
   font-style: bold;
+  margin-bottom: 10px;
 }
 
-.blogItem_description,
-.blogItem_author {
+.blogItem_description {
   color: slategray;
+  margin-bottom: 50px;
 }
 
 .blogItem_img {
@@ -25,4 +26,15 @@
   padding-left: 200px;
   height: 160px;
   width: 200px;
+}
+
+.blogItem_author {
+  color: rgb(79, 79, 79);
+  padding-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  display: flex;
 }
