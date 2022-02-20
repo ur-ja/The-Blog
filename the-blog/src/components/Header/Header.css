@@ -1,0 +1,35 @@
+.header {
+  height: 50px;
+  background-color: rgb(255, 254, 255);
+  margin-bottom: 1px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.search {
+  margin-right: 20px;
+  margin-top: 6px;
+}
+
+.create_blog {
+  margin-right: 20px;
+  margin-top: 6px;
+}
+
+.sign_in {
+  margin-top: 6px;
+}

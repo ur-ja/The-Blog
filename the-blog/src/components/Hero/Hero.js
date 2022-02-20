@@ -14,15 +14,12 @@ function Hero({ title, url, description, author }) {
         <h4 className="right_content_heading"> Welcome</h4>
         <p className="right_content">
           The is a website deigned to make you feel like you have a bestfriend.
-          An online journal that you can share with your friends while sharing
-          your inner-most feelings.
+          An online journal that you can share with your friends.
         </p>
         <h4 className="right_content_heading"> Start here</h4>
         <p className="right_content">
           I am only writing this to make my website look professional and to
-          make the design work. It has no real use but it makes me happy so I'm
-          going to use it. No one can stop me. I hope you enjoy your experience
-          here.
+          make the design work. It has no real use.
         </p>
       </div>
     </div>
