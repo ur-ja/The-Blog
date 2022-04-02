@@ -5,7 +5,9 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className="header">
-      <h1 className="heading">THE BLOG</h1>
+      <Link to="/">
+        <h1 className="heading">THE BLOG</h1>
+      </Link>
       <div className="icons">
         <MagnifyingGlass size={20} className="search" />
         <Link to="/newBlog">
